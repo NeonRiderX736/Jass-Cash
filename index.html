@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JazzCash Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>JazzCash</h1>
+</header>
+
+<section class="balance">
+    <h2>My Balance</h2>
+    <p id="balance">Rs. 10,000</p>
+</section>
+
+<section class="actions">
+    <button onclick="sendMoney()">Send Money</button>
+    <button onclick="receiveMoney()">Receive</button>
+    <button>Pay Bills</button>
+    <button>Mobile Load</button>
+</section>
+
+<section class="transactions">
+    <h2>Recent Transactions</h2>
+    <ul id="tx-list">
+        <li>+ Rs. 2,000 received</li>
+        <li>- Rs. 500 sent</li>
+    </ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
